@@ -1,0 +1,62 @@
+<!DOCTYPE html>  
+<html> 
+  <head>
+    <title> CALCULATOR </title>
+    <meta charset="UTF-8"><!--charset(is an attribute that tells the browser that character and encoding is utf=8-->
+        <meta name ="viewport" content="width=device-width,intial-scale=1">
+        <meta http-equiv="x_UA-compatible"content="ie edge">
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+  </head>
+
+  <body>
+   
+  <main>
+    <div class="container">
+      <div class="text-center">
+        <p id="title">CALCULATOR</P>
+      </div>
+      <div class="text-center">
+        <input id="text-Box" type="textBox" placeholder="0" readonly>
+        </input>
+      </div>
+      <div id="buttons">
+        <ul style="list-style-type:none">
+          <li>
+            <button value="√">√</button>
+            <button value="C">C</button>
+            <button value="CE">CE</button>
+            <button value="%">%</button>
+            <button class="btn btn-default text-center" value="/">/</button>
+          </li>
+          <li>
+            <button class="btn btn-default text-center" value="7">7</button>
+            <button class="btn btn-default text-center" value="8">8</button>
+            <button class="btn btn-default text-center" value="9">9</button>
+            <button class="btn btn-default text-center" value="*">*</button>
+          </li>
+          <li>
+            <button class="btn btn-default text-center" value="4">4</button>
+            <button class="btn btn-default text-center" value="5">5</button>
+            <button class="btn btn-default text-center" value="6">6</button>
+            <button class="btn btn-default text-center" value="-">-</button>
+          </li>
+          <li>
+            <button class="btn btn-default text-center" value="1">1</button>
+            <button class="btn btn-default text-center" value="2">2</button>
+            <button class="btn btn-default text-center" value="3">3</button>
+            <button class="btn btn-default text-center" value="+">+</button>
+          </li>
+          <li>
+            <button class="btn btn-default text-center"value=".">.</button>
+            <button class="btn btn-default text-center" value="0">0</button>
+            <button class="btn btn-default text-center" value="+/-">+/-</button>
+            <button class="btn btn-default text-center" value="=">=</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <script scr="calculator.js" type="text/javascript"></script>
+</body>
+
+  </html>
